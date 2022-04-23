@@ -25,9 +25,6 @@ function startGame() {
 
         for (let i = 1; i <= resultDifficulty; i++) {
     
-        
-            
-            
             const newElement = document.createElement("div");
             
             newElement.innerHTML = `<span>${i}</span>`
@@ -63,7 +60,6 @@ function startGame() {
         resultDifficulty = 49
 
         for (let i = 1; i <= resultDifficulty; i++) {
-    
         
             const newElement = document.createElement("div");
             
@@ -79,34 +75,4 @@ function startGame() {
         }
 
     }
-
-
-
-    
-    // for (let i = 1; i <= resultDifficulty; i++) {
-    
-    //     const domElement = generateGridItem(i)
-    
-    //     domElement.addEventListener("click", function() {
-    //         this.classList.toggle("active");
-    //     });
-    
-    //     container.append(domElement);
-    // }
-
-
 }
-
-
-// function generateGridItem(number) {
-//     const newElement = document.createElement("div");
-
-//     newElement.innerHTML = `<span>${number}</span>`
-
-//     newElement.classList.add("item",resultBox);
-
-//     return newElement;
-// }
-
-// console.log(resultBox);
-
