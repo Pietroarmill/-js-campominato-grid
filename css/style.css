@@ -23,17 +23,33 @@ main {
     background-color: #7fffd4;
     height: 500px;
     width: 500px;
-    border: 2px solid white;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
 .item {
-    border: 1px solid black;
-    height: calc(100% / 10);
-    width:  calc(100% / 10);
+    border: 1px solid black; 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box-easy {
+    height: calc(100% / 10);
+    width:  calc(100% / 10);
+}
+
+.box-difficult {
+    height: calc(100% / 9);
+    width:  calc(100% / 9);
+}
+
+.box-hard {
+    height: calc(100% / 7);
+    width:  calc(100% / 7);
+}
+
+.active {
+    background-color: #6495ed;
 }
